@@ -16,7 +16,7 @@ Meteor.startup(function () {
       profile: {
         name: 'Applebloom',
         role: 'Pony',
-        avatar: '/avatars/applebloom.jpg'
+        avatar: '/packages/awatson1978_accounts-ponies/ponies/applebloom.jpg'
       }
     });
     console.info('Account created: ' + userId);
@@ -29,7 +29,7 @@ Meteor.startup(function () {
       profile: {
         name: 'Applejack',
         role: 'Pony',
-        avatar: '/avatars/applejack.jpg'
+        avatar: '/packages/awatson1978_accounts-ponies/ponies/applejack.jpg'
       }
     });
     console.info('Account created: ' + userId);
@@ -42,7 +42,7 @@ Meteor.startup(function () {
       profile: {
         name: 'Berry Punch',
         role: 'Pony',
-        avatar: '/avatars/berry.punch.jpg'
+        avatar: '/packages/awatson1978_accounts-ponies/ponies/berry.punch.jpg'
       }
     });
     console.info('Account created: ' + userId);
@@ -55,7 +55,7 @@ Meteor.startup(function () {
       profile: {
         name: 'Big Mac',
         role: 'Pony',
-        avatar: '/avatars/big.mac.jpg'
+        avatar: '/packages/awatson1978_accounts-ponies/ponies/big.mac.jpg'
       }
     });
     console.info('Account created: ' + userId);
@@ -68,7 +68,7 @@ Meteor.startup(function () {
       profile: {
         name: 'BonBon',
         role: 'Pony',
-        avatar: '/avatars/bonbon.jpg'
+        avatar: '/packages/awatson1978_accounts-ponies/ponies/bonbon.jpg'
       }
     });
     console.info('Account created: ' + userId);
@@ -81,7 +81,7 @@ Meteor.startup(function () {
       profile: {
         name: 'Braeburn',
         role: 'Pony',
-        avatar: '/avatars/braeburn.jpg'
+        avatar: '/packages/awatson1978_accounts-ponies/ponies/braeburn.jpg'
       }
     });
     console.info('Account created: ' + userId);
@@ -95,7 +95,7 @@ Meteor.startup(function () {
       profile: {
         name: 'Carrot Top',
         role: 'Pony',
-        avatar: '/avatars/carrot.top.jpg'
+        avatar: '/packages/awatson1978_accounts-ponies/ponies/carrot.top.jpg'
       }
     });
     console.info('Account created: ' + userId);
@@ -108,7 +108,7 @@ Meteor.startup(function () {
       profile: {
         name: 'Cheerilee',
         role: 'Pony',
-        avatar: '/avatars/cheerilee.jpg'
+        avatar: '/packages/awatson1978_accounts-ponies/ponies/cheerilee.jpg'
       }
     });
     console.info('Account created: ' + userId);
@@ -121,7 +121,7 @@ Meteor.startup(function () {
       profile: {
         name: 'Crackle',
         role: 'Pony',
-        avatar: '/avatars/crackle.jpg'
+        avatar: '/packages/awatson1978_accounts-ponies/ponies/crackle.jpg'
       }
     });
     console.info('Account created: ' + userId);
@@ -134,7 +134,7 @@ Meteor.startup(function () {
       profile: {
         name: 'Daring Do',
         role: 'Pony',
-        avatar: '/avatars/daring.do.jpg'
+        avatar: '/packages/awatson1978_accounts-ponies/ponies/daring.do.jpg'
       }
     });
     console.info('Account created: ' + userId);
@@ -147,7 +147,7 @@ Meteor.startup(function () {
       profile: {
         name: 'Derpy Hooves',
         role: 'Pony',
-        avatar: '/avatars/derpy.hooves.jpg'
+        avatar: '/packages/awatson1978_accounts-ponies/ponies/derpy.hooves.jpg'
       }
     });
     console.info('Account created: ' + userId);
@@ -160,7 +160,7 @@ Meteor.startup(function () {
       profile: {
         name: 'Derpy Joker',
         role: 'Pony',
-        avatar: '/avatars/derpy.joker.jpg'
+        avatar: '/packages/awatson1978_accounts-ponies/ponies/derpy.joker.jpg'
       }
     });
     console.info('Account created: ' + userId);
@@ -173,7 +173,7 @@ Meteor.startup(function () {
       profile: {
         name: 'Diamond Tiara',
         role: 'Pony',
-        avatar: '/avatars/diamond.tiara.jpg'
+        avatar: '/packages/awatson1978_accounts-ponies/ponies/diamond.tiara.jpg'
       }
     });
     console.info('Account created: ' + userId);
@@ -186,7 +186,7 @@ Meteor.startup(function () {
       profile: {
         name: 'Dinky Doo',
         role: 'Pony',
-        avatar: '/avatars/dinky.doo.jpg'
+        avatar: '/packages/awatson1978_accounts-ponies/ponies/dinky.doo.jpg'
       }
     });
     console.info('Account created: ' + userId);
@@ -199,7 +199,7 @@ Meteor.startup(function () {
       profile: {
         name: 'Discord',
         role: 'Pony',
-        avatar: '/avatars/discord.jpg'
+        avatar: '/packages/awatson1978_accounts-ponies/ponies/discord.jpg'
       }
     });
     console.info('Account created: ' + userId);
@@ -212,7 +212,7 @@ Meteor.startup(function () {
       profile: {
         name: 'Dr. Whooves',
         role: 'Pony',
-        avatar: '/avatars/dr.whooves.jpg'
+        avatar: '/packages/awatson1978_accounts-ponies/ponies/dr.whooves.jpg'
       }
     });
     console.info('Account created: ' + userId);
@@ -225,7 +225,7 @@ Meteor.startup(function () {
       profile: {
         name: 'Fancy Pants',
         role: 'Pony',
-        avatar: '/avatars/fancy.pants.jpg'
+        avatar: '/packages/awatson1978_accounts-ponies/ponies/fancy.pants.jpg'
       }
     });
     console.info('Account created: ' + userId);

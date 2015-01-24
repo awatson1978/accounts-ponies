@@ -7,24 +7,9 @@
 First, install the accounts-ponies package from the command line, like so:
 
 ````
-mrt add accounts-ponies
+meteor add awatson1978:accounts-ponies
 ````
 
-Alternatively, if you'd like to bypass Atmosphere, and install directly from GitHub, you could update your application's smart.json file, like so:
-
-````js
-{
-  "meteor": {
-    "branch": "master"
-  },
-  "packages": {
-    "accounts-ponies": {
-      "git": "https://github.com/awatson1978/accounts-ponies.git"
-    }
-  }
-}
-
-````
 
 
 ------------------------
@@ -53,7 +38,53 @@ Usernames and passwords for all the users should be the same.  For the most part
 ------------------------
 ### Users List
 
-52 Ponies
+Applebloom
+Applejack
+Berry Punch
+Big Mac
+BonBon
+Braeburn
+Carrot Top
+Cheerilee
+Crackle
+Daring Do
+Derpy Hooves
+Derpy Joker
+Diamond Tiara
+Dinky Doo
+Discord
+Dr. Whooves
+Fancy Pants
+
+
+
+
+
+------------------------
+### Example Usage  
+
+````html
+{{#each userList}}
+{{profile.name}}<br>
+{{/each}}
+````
+
+````js
+if (Meteor.isClient) {
+  Meteor.subscribe("users");
+
+  Template.registerHelper('userList', function(){
+    return Meteor.users.find();
+  });
+}
+
+if (Meteor.isServer) {
+  Meteor.publish("users", function(){
+    return Meteor.users.find();
+  });
+}
+````
+
 
 ------------------------
 ### License
