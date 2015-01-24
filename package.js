@@ -66,6 +66,7 @@ Package.on_use(function (api) {
   api.addFiles('ponies/snips.jpg', "client", {isAsset: true});
   api.addFiles('ponies/soarin.jpg', "client", {isAsset: true});
   api.addFiles('ponies/spike.jpg', "client", {isAsset: true});
+
   api.addFiles('ponies/spitfire.jpg', "client", {isAsset: true});
   api.addFiles('ponies/sweetie.belle.jpg', "client", {isAsset: true});
   api.addFiles('ponies/trixie.jpg', "client", {isAsset: true});
