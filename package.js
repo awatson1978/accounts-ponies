@@ -3,7 +3,7 @@ Package.describe({
 
 
   // update this value before you run 'meteor publish'
-  version: "1.0.0",
+  version: "1.0.1",
 
   // if this value isn't set, meteor will default to the directory name
   name: "awatson1978:accounts-ponies",
